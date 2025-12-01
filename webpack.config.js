@@ -28,7 +28,7 @@ module.exports = {
       directory: path.join(__dirname, 'dist'), // distフォルダの中身をブラウザに表示する
     },
     compress: true,
-    port: 8080, // http://localhost:8080 でアクセスできる
+    port: 8080, 
     hot: true, // ホットリロード
   },
   devtool: 'inline-source-map',
