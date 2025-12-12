@@ -1,0 +1,1 @@
+{"version":3,"file":"InputManager.d.ts","sourceRoot":"","sources":["../src/InputManager.ts"],"names":[],"mappings":"AAAA,qBAAa,YAAY;IACvB,OAAO,CAAC,QAAQ,CAAC,eAAe,CAAM;IACtC,OAAO,CAAC,MAAM,CAAa;IAC3B,OAAO,CAAC,MAAM,CAAa;IACpB,MAAM,EAAE,CAAC,SAAS,EAAE,MAAM,KAAK,IAAI,CAAY;IAEtD,KAAK;CAsCN"}
