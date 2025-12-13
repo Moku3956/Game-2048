@@ -89,6 +89,7 @@ export class Grid {
   }
 
   moveTile(direction: string) {
+    const startMatrix = JSON.stringify(this.matrix4);
     switch (direction) {
       case "right":
         this.matrix4 = this.matrix4.map((row) => this.processRow(row, "right"));
@@ -114,6 +115,8 @@ export class Grid {
         this.matrix4 = this.transpose(transposedMatrixDown);
         break;
     }
+    const endMatrix = JSON.stringify(this.matrix4);
+    return startMatrix !== endMatrix;
   }
 
   private isGameOver(): boolean {
